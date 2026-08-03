@@ -158,16 +158,31 @@ export const ProjectsModule: React.FC = () => {
                   <ChevronRight className="w-3.5 h-3.5" />
                 </button>
 
-                <a
-                  href={proj.githubUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  onClick={() => AnalyticsService.trackEvent('GITHUB_CLICK', proj.title)}
-                  className="p-1.5 rounded-lg bg-cyber-dark border border-cyber-border text-slate-400 hover:text-white hover:border-cyber-cyan transition-all"
-                  title="View GitHub Repository"
-                >
-                  <Github className="w-4 h-4" />
-                </a>
+                <div className="flex items-center gap-1.5">
+                  {proj.liveUrl && proj.liveUrl !== '#' && (
+                    <a
+                      href={proj.liveUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      onClick={() => AnalyticsService.trackEvent('LIVE_DEMO_CLICK', proj.title)}
+                      className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-cyber-emerald/20 border border-cyber-emerald text-cyber-emerald text-[10px] font-mono font-bold hover:bg-cyber-emerald/40 transition-all"
+                      title="Live Demo"
+                    >
+                      <ExternalLink className="w-3 h-3" />
+                      <span>Live Demo</span>
+                    </a>
+                  )}
+                  <a
+                    href={proj.githubUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    onClick={() => AnalyticsService.trackEvent('GITHUB_CLICK', proj.title)}
+                    className="p-1.5 rounded-lg bg-cyber-dark border border-cyber-border text-slate-400 hover:text-white hover:border-cyber-cyan transition-all"
+                    title="View GitHub Repository"
+                  >
+                    <Github className="w-4 h-4" />
+                  </a>
+                </div>
               </div>
             </div>
           ))}
@@ -243,15 +258,29 @@ export const ProjectsModule: React.FC = () => {
             </div>
 
             <div className="pt-4 border-t border-cyber-border flex items-center justify-between">
-              <a
-                href={selectedProject.githubUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-2 px-4 py-2 rounded-xl bg-cyber-dark border border-cyber-cyan text-cyber-cyan text-xs font-mono font-bold hover:bg-cyber-cyan/10"
-              >
-                <Github className="w-4 h-4" />
-                <span>View GitHub Repository</span>
-              </a>
+              <div className="flex items-center gap-2">
+                <a
+                  href={selectedProject.githubUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center gap-2 px-4 py-2 rounded-xl bg-cyber-dark border border-cyber-cyan text-cyber-cyan text-xs font-mono font-bold hover:bg-cyber-cyan/10"
+                >
+                  <Github className="w-4 h-4" />
+                  <span>View GitHub Repository</span>
+                </a>
+                {selectedProject.liveUrl && selectedProject.liveUrl !== '#' && (
+                  <a
+                    href={selectedProject.liveUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    onClick={() => AnalyticsService.trackEvent('LIVE_DEMO_CLICK', selectedProject.title)}
+                    className="flex items-center gap-2 px-4 py-2 rounded-xl bg-cyber-emerald/20 border border-cyber-emerald text-cyber-emerald text-xs font-mono font-bold hover:bg-cyber-emerald/40 transition-all shadow-neon-emerald"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    <span>🚀 Try Live Demo</span>
+                  </a>
+                )}
+              </div>
 
               <button
                 onClick={() => setSelectedProject(null)}

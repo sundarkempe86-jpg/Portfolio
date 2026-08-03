@@ -8,7 +8,7 @@
     "summary": "Real-time web security system using FastAPI backend, Python Machine Learning (Scikit-Learn Random Forest / TF-IDF classification NLP), and React UI for malicious link detection.",
     "techStack": ["Python", "FastAPI", "Scikit-Learn", "React", "Tailwind CSS", "REST API"],
     "githubUrl": "https://github.com/sundarkempe86-jpg/CyberGuard-Malicious-URL-Detection",
-    "liveUrl": "#",
+    "liveUrl": "https://huggingface.co/spaces/sundarkempe-dev/CyberGuard-Detection",
     "featured": true,
     "metrics": {
       "accuracy": "98.4%",
