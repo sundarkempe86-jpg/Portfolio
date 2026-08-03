@@ -6,8 +6,7 @@ Here is an optimized, professionally formatted **`README.md`** template tailored
 
 An **Awwwards-grade, production-ready** developer portfolio built for **Sundar Raj Kempe** (AI/ML Engineer & Java Full-Stack Developer). Designed with Next.js 15, React 19, and Framer Motion, featuring self-contained client-side AI tools—**no external paid API keys required**.
 
-🔗 **Live Demo:** [portfolio-iota-eight-64.vercel.app](https://www.google.com/search?q=https://portfolio-iota-eight-64.vercel.app)
-
+🔗 **Live Demo:** [portfolio-brown-nu-33.vercel.app](https://portfolio-brown-nu-33.vercel.app/)
 ---
 
 ## ✨ Key Features
