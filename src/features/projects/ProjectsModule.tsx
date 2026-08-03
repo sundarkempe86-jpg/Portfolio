@@ -164,7 +164,7 @@ export const ProjectsModule: React.FC = () => {
                       href={proj.liveUrl}
                       target="_blank"
                       rel="noreferrer"
-                      onClick={() => AnalyticsService.trackEvent('LIVE_DEMO_CLICK', proj.title)}
+                      onClick={() => AnalyticsService.trackEvent('PROJECT_VIEW', proj.title)}
                       className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-cyber-emerald/20 border border-cyber-emerald text-cyber-emerald text-[10px] font-mono font-bold hover:bg-cyber-emerald/40 transition-all"
                       title="Live Demo"
                     >
@@ -273,7 +273,7 @@ export const ProjectsModule: React.FC = () => {
                     href={selectedProject.liveUrl}
                     target="_blank"
                     rel="noreferrer"
-                    onClick={() => AnalyticsService.trackEvent('LIVE_DEMO_CLICK', selectedProject.title)}
+                    onClick={() => AnalyticsService.trackEvent('PROJECT_VIEW', selectedProject.title)}
                     className="flex items-center gap-2 px-4 py-2 rounded-xl bg-cyber-emerald/20 border border-cyber-emerald text-cyber-emerald text-xs font-mono font-bold hover:bg-cyber-emerald/40 transition-all shadow-neon-emerald"
                   >
                     <ExternalLink className="w-4 h-4" />
