@@ -1,0 +1,12 @@
+[
+  {
+    "id": "kodnest-training",
+    "role": "Offline Java Full Stack Trainee",
+    "organization": "KodNest Technologies",
+    "location": "BTM Layout, Bengaluru, Karnataka, India",
+    "duration": "Feb 2026 – Present",
+    "type": "Professional Training",
+    "description": "Undergoing intensive offline software engineering training focusing on enterprise Java backend, modern Web Technologies, SQL relational databases, and Data Structures & Algorithms.",
+    "skillsLearned": ["Java 17+", "Enterprise OOP", "PostgreSQL / MySQL", "HTML5/CSS3/JavaScript", "DSA Optimization", "REST API Design"]
+  }
+]

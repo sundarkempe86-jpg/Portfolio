@@ -1,0 +1,42 @@
+[
+  {
+    "id": "vtu-gold-web-react-python",
+    "title": "VTU Elite GOLD: Web Development & React with Python",
+    "issuer": "VTU Belagavi Centre for Online Education",
+    "issueDate": "04 May 2026",
+    "credentialId": "USN: 3DG22CS049 (12 Credits)",
+    "badgeUrl": "https://images.credly.com/size/340x340/images/2b7405e0-81f8-450a-8bf7-10499b708fb5/azure-ai-fundamentals-600x600.png",
+    "skills": ["Web Development", "React 19", "Python Backend", "Virtual Internship", "VTU 12 Credits"],
+    "verified": true
+  },
+  {
+    "id": "kgtti-cyber-security",
+    "title": "KGTTI Kalaburagi: Cyber Security Certification",
+    "issuer": "Karnataka German Technical Training Institute",
+    "issueDate": "24 May 2024",
+    "credentialId": "IN08/05/24/02/15110",
+    "badgeUrl": "https://images.credly.com/size/340x340/images/84cf326b-734f-4a3d-ae8b-21d3f9b207df/endpoint-security.png",
+    "skills": ["Cyber Security", "Kali Linux", "Network Defense", "Endpoint Security", "VM Isolation"],
+    "verified": true
+  },
+  {
+    "id": "cisco-endpoint-security",
+    "title": "Cisco Networking Academy: Endpoint Security",
+    "issuer": "Cisco Networking Academy",
+    "issueDate": "24 May 2024",
+    "credentialId": "CISCO-NETACAD-ENDPOINT",
+    "badgeUrl": "https://images.credly.com/size/340x340/images/84cf326b-734f-4a3d-ae8b-21d3f9b207df/endpoint-security.png",
+    "skills": ["Endpoint Protection", "Threat Mitigation", "Packet Capture Analysis", "Network Security"],
+    "verified": true
+  },
+  {
+    "id": "azure-ai-foundry-sdk",
+    "title": "Develop an AI App with Azure AI Foundry SDK",
+    "issuer": "Microsoft Learn (sundarkempe-9972)",
+    "issueDate": "13 May 2025",
+    "credentialId": "MS-AZURE-AI-FOUNDRY-3a7mcg3h",
+    "badgeUrl": "https://learn.microsoft.com/en-us/media/learn/achievements/azure-ai-foundry.png",
+    "skills": ["Azure AI Foundry SDK", "Generative AI", "RAG Pipelines", "Prompt Engineering"],
+    "verified": true
+  }
+]

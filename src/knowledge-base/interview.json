@@ -1,0 +1,47 @@
+[
+  {
+    "role": "AI / ML Engineer",
+    "questions": [
+      {
+        "id": "aiml-1",
+        "question": "How did you design the feature extraction pipeline in CyberGuard to detect malicious URLs in under 45 milliseconds?",
+        "idealKeywords": ["fastapi", "entropy", "subdomain", "scikit-learn", "random forest", "async"],
+        "sampleAnswer": "In CyberGuard, we extracted 18 structural and lexical features from candidate URLs including character entropy, domain length, and subdomain count. By decoupling feature extraction into asynchronous worker functions in FastAPI and using a quantized Scikit-Learn Random Forest ensemble, we maintained inference latency under 45ms."
+      },
+      {
+        "id": "aiml-2",
+        "question": "Explain the concept of Cosine Similarity and how it applies to TF-IDF vector matching in RAG pipelines.",
+        "idealKeywords": ["cosine similarity", "dot product", "vector", "tfidf", "n-gram", "embeddings"],
+        "sampleAnswer": "Cosine similarity measures the cosine of the angle between two multi-dimensional vectors in term space. By dividing the dot product of TF-IDF vectors by their Euclidean magnitudes, it measures semantic directional alignment independently of text length."
+      }
+    ]
+  },
+  {
+    "role": "Java Backend Developer",
+    "questions": [
+      {
+        "id": "java-1",
+        "question": "What are the core OOP principles and how did you apply them during your KodNest training?",
+        "idealKeywords": ["encapsulation", "inheritance", "polymorphism", "abstraction", "interfaces", "kodnest"],
+        "sampleAnswer": "At KodNest, we structured Java backend systems using strict encapsulation via private fields and public getters/setters, interface abstraction for decoupling database persistence layers, and runtime polymorphism for flexible payment/service handlers."
+      },
+      {
+        "id": "java-2",
+        "question": "How do you optimize SQL database queries to prevent N+1 query problems in relational schemas?",
+        "idealKeywords": ["indexing", "joins", "n+1", "postgresql", "foreign keys", "execution plan"],
+        "sampleAnswer": "We eliminate N+1 queries by replacing iterative subqueries with explicit SQL INNER/LEFT JOIN statements, adding composite indexes on foreign key columns, and analyzing query execution plans via EXPLAIN ANALYZE."
+      }
+    ]
+  },
+  {
+    "role": "Cybersecurity Analyst",
+    "questions": [
+      {
+        "id": "sec-1",
+        "question": "Describe the security controls implemented in your FastAPI backend services.",
+        "idealKeywords": ["owasp", "cors", "input validation", "rate limiting", "jwt", "sanitization"],
+        "sampleAnswer": "We enforce strict Pydantic input model validation, CORS domain whitelisting, rate limiting per IP client, HTTP-only secure cookies for session tokens, and automated input sanitization against SQL injection and XSS."
+      }
+    ]
+  }
+]

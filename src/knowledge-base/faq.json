@@ -1,0 +1,70 @@
+[
+  {
+    "keywords": [
+      "cgpa",
+      "vtu",
+      "marks",
+      "percentage",
+      "college",
+      "degree",
+      "education",
+      "belagavi",
+      "bidar"
+    ],
+    "response": "Sundar Raj Kempe is pursuing his B.E. in Computer Science & Engineering (2022–2026) at Government Engineering College, Bidar, affiliated with VTU Belagavi. He maintains a solid CGPA of 7.0 / 10.0. Prior to this, he scored 60% in PUC Science and 84% in SSLC at Shree Chennabasaveshwara Gurukul."
+  },
+  {
+    "keywords": [
+      "training",
+      "kodnest",
+      "btm",
+      "bengaluru",
+      "course",
+      "java",
+      "offline"
+    ],
+    "response": "Sundar is currently undergoing intensive offline Java Full Stack training at KodNest Technologies, BTM Layout, Bengaluru (Feb 2026 – Present). He is mastering Enterprise Java, SQL relational databases, web development, and Data Structures & Algorithms."
+  },
+  {
+    "keywords": [
+      "projects",
+      "cyberguard",
+      "dormx",
+      "expense",
+      "calendar",
+      "work"
+    ],
+    "response": "Sundar has built 4 major production-grade projects: 1) CyberGuard (AI Malicious URL Detection using FastAPI & ML), 2) DormX (Student Housing SaaS platform for VTU students), 3) Automated Personal Expense Tracker (Python & SQL utility), and 4) Dynamic Task Calendar View App (React 19 & TypeScript)."
+  },
+  {
+    "keywords": [
+      "certifications",
+      "azure",
+      "cisco",
+      "microsoft",
+      "badges"
+    ],
+    "response": "Sundar holds verified certifications: Microsoft Certified Azure AI Fundamentals (May 2025), Azure AI Foundry Generative AI & Prompt Flow, Cisco Endpoint Security Badge (May 2024), and over 15+ Microsoft Learn Badges in Azure Speech, Vision, and LLMs."
+  },
+  {
+    "keywords": [
+      "mext",
+      "japan",
+      "scholarship",
+      "higher studies",
+      "2027"
+    ],
+    "response": "Sundar is focused on building strong engineering impact through software development, AI product work, and continuous professional growth."
+  },
+  {
+    "keywords": [
+      "contact",
+      "email",
+      "phone",
+      "github",
+      "linkedin",
+      "hire"
+    ],
+    "response": "You can reach Sundar via Email: sundarkempe86@gmail.com, Phone: +91 8618860789, GitHub: github.com/sundarkempe86-jpg, or LinkedIn: linkedin.com/in/sundar-kempe-8ab618378."
+  }
+]

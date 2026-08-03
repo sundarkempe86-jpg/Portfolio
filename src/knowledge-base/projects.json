@@ -1,0 +1,178 @@
+[
+  {
+    "id": "cyberguard",
+    "title": "CyberGuard - Malicious URL Detection",
+    "subtitle": "Real-Time AI & Machine Learning Web Security System",
+    "year": "2025",
+    "category": "AI/ML & Cybersecurity",
+    "summary": "Real-time web security system using FastAPI backend, Python Machine Learning (Scikit-Learn Random Forest / TF-IDF classification NLP), and React UI for malicious link detection.",
+    "techStack": ["Python", "FastAPI", "Scikit-Learn", "React", "Tailwind CSS", "REST API"],
+    "githubUrl": "https://github.com/sundarkempe86-jpg/CyberGuard-Malicious-URL-Detection",
+    "liveUrl": "#",
+    "featured": true,
+    "metrics": {
+      "accuracy": "98.4%",
+      "latency": "< 45ms",
+      "modelType": "Random Forest & TF-IDF NLP"
+    },
+    "caseStudy": {
+      "problem": "Phishing threats utilize dynamic URL masking that traditional static blacklists miss.",
+      "research": "Extracted 18 structural and lexical features from URL payloads (entropy, length, subdomain depth, TLD risk).",
+      "architecture": "Stateless FastAPI microservice running pre-trained Scikit-Learn Random Forest model connected to React 19 client.",
+      "challenges": "Maintaining sub-50ms inference latency during multi-threaded feature extraction.",
+      "solutions": "Parallelized async feature extraction workers and model serialization optimization.",
+      "performance": "Processes 100+ requests/sec with 98.4% precision.",
+      "lessonsLearned": "Feature vector optimization is paramount for low-latency security classification."
+    }
+  },
+  {
+    "id": "nexushr-ai",
+    "title": "NexusHR-AI",
+    "subtitle": "AI-Powered HR Tech & Candidate Evaluation Platform",
+    "year": "2026",
+    "category": "AI & Web Full-Stack",
+    "summary": "Next-gen intelligent human resources platform automating resume parsing, candidate scoring, and interview scheduling workflows using AI engines.",
+    "techStack": ["Next.js", "TypeScript", "Python", "Tailwind CSS", "PostgreSQL"],
+    "githubUrl": "https://github.com/sundarkempe86-jpg/NexusHR-AI",
+    "liveUrl": "#",
+    "featured": true,
+    "metrics": {
+      "parsingSpeed": "1.2s / Resume",
+      "scoreAccuracy": "94%"
+    },
+    "caseStudy": {
+      "problem": "Manual HR screening of hundreds of candidate resumes causes severe hiring bottlenecks.",
+      "research": "Studied recruiter screening criteria across tech roles to build NLP keyword and experience matching vectors.",
+      "architecture": "Next.js App Router front-end with Python processing services and PostgreSQL relational database.",
+      "challenges": "Extracting structured JSON entities from multi-page PDFs and DOCX resumes cleanly.",
+      "solutions": "Implemented rule-based regex parsing combined with document intelligence vectors.",
+      "performance": "Reduced candidate screening time by over 80%.",
+      "lessonsLearned": "Structured entity extraction is essential for modern recruitment automation."
+    }
+  },
+  {
+    "id": "expenseiq",
+    "title": "ExpenseIQ - Secure Financial Dashboard",
+    "subtitle": "Automated Personal Expense & Budget Intelligence System",
+    "year": "2026",
+    "category": "Full-Stack & Finance",
+    "summary": "Secure financial dashboard and transaction analytics platform providing budget visualization, SQL data persistence, and category tracking.",
+    "techStack": ["Python", "SQL / PostgreSQL", "React", "Chart.js", "Tailwind CSS"],
+    "githubUrl": "https://github.com/sundarkempe86-jpg/ExpenseIQ-Secure-Dashboard",
+    "liveUrl": "#",
+    "featured": true,
+    "metrics": {
+      "queryLatency": "5ms",
+      "categorizationRate": "99%"
+    },
+    "caseStudy": {
+      "problem": "Users struggle with manual expense tracking and lack secure, encrypted financial analytics.",
+      "research": "Designed normalized SQL database schema for double-entry ledger security and category aggregation.",
+      "architecture": "Python backend API serving analytical endpoints to a responsive React Chart.js dashboard.",
+      "challenges": "Optimizing relational aggregations over multi-year transaction datasets.",
+      "solutions": "Applied composite database indexing and optimized SQL summary views.",
+      "performance": "Instant dashboard rendering for 10,000+ transaction lines.",
+      "lessonsLearned": "Relational schema indexing is critical for sub-10ms financial reporting."
+    }
+  },
+  {
+    "id": "cashflow-iq",
+    "title": "CashFlow-IQ",
+    "subtitle": "Intelligent Cash Flow Forecasting & Financial Utility",
+    "year": "2026",
+    "category": "Java & Python Backend",
+    "summary": "Financial utility analyzing recurring income and expenditure patterns to generate predictive monthly cash flow forecasts.",
+    "techStack": ["Java 17", "Python", "SQL", "REST API"],
+    "githubUrl": "https://github.com/sundarkempe86-jpg/cashflow-Iq",
+    "liveUrl": "#",
+    "featured": false,
+    "metrics": {
+      "forecastAccuracy": "91%",
+      "runtime": "8ms"
+    },
+    "caseStudy": {
+      "problem": "Small businesses and individuals lack accessible forward-looking cash flow projections.",
+      "research": "Implemented moving average time series forecasting models over SQL transaction history.",
+      "architecture": "Java backend service executing numerical calculation algorithms connected to SQL data store.",
+      "challenges": "Handling erratic and non-periodic income events accurately.",
+      "solutions": "Designed weighted moving average filters with outlier detection.",
+      "performance": "Generates 12-month projections in under 10 milliseconds.",
+      "lessonsLearned": "Algorithm selection directly impacts business decision utility."
+    }
+  },
+  {
+    "id": "reactive-resume",
+    "title": "Reactive-Resume Tailor",
+    "subtitle": "Dynamic Resume Builder & Customizer",
+    "year": "2026",
+    "category": "Web & Full-Stack",
+    "summary": "Custom resume builder tool allowing live editing, section toggling, and export of ATS-optimized candidate resumes.",
+    "techStack": ["React 19", "TypeScript", "Tailwind CSS", "LocalStorage"],
+    "githubUrl": "https://github.com/sundarkempe86-jpg/Reactive-Resume",
+    "liveUrl": "#",
+    "featured": false,
+    "metrics": {
+      "fps": "60 FPS",
+      "exportFormat": "PDF & JSON"
+    },
+    "caseStudy": {
+      "problem": "Job seekers need job-specific resume variants without rebuilding documents from scratch.",
+      "research": "Analyzed standard ATS document layout parser rules.",
+      "architecture": "React state machine rendering real-time print styling preview.",
+      "challenges": "Ensuring 100% page-break compliance during PDF printing.",
+      "solutions": "Applied custom print CSS media query rules.",
+      "performance": "Instant live preview rendering.",
+      "lessonsLearned": "CSS print media specifications require precise page box model controls."
+    }
+  },
+  {
+    "id": "netflix-copy",
+    "title": "Netflix Clone - Video Streaming Web Interface",
+    "subtitle": "Responsive Media Catalog & UI Component System",
+    "year": "2025",
+    "category": "Web & Full-Stack",
+    "summary": "High-fidelity media streaming interface built with React, featuring dynamic movie category sliders, trailer previews, and responsive layouts.",
+    "techStack": ["React", "JavaScript", "TMDB API", "Tailwind CSS"],
+    "githubUrl": "https://github.com/sundarkempe86-jpg/netflix-copy",
+    "liveUrl": "#",
+    "featured": false,
+    "metrics": {
+      "uiFidelity": "100%",
+      "fps": "60 FPS"
+    },
+    "caseStudy": {
+      "problem": "Creating smooth horizontal scroll carousels and dynamic video overlays without UI lag.",
+      "research": "Studied Netflix web application design system and CSS scroll snap behaviors.",
+      "architecture": "Modular React component hierarchy consuming movie catalog endpoints.",
+      "challenges": "Optimizing image loading speed across high-density poster grids.",
+      "solutions": "Implemented lazy loading and responsive image sources.",
+      "performance": "Maintains 60 FPS scrolling performance.",
+      "lessonsLearned": "Media lazy loading improves web initial render time significantly."
+    }
+  },
+  {
+    "id": "weather-app",
+    "title": "Dynamic Weather Forecast Web App",
+    "subtitle": "Real-Time Geospatial Weather Analytics UI",
+    "year": "2025",
+    "category": "Web & Full-Stack",
+    "summary": "Clean weather application fetching live meteorological data, hourly forecasts, and animated atmospheric condition visuals.",
+    "techStack": ["JavaScript", "OpenWeather API", "HTML5", "CSS3"],
+    "githubUrl": "https://github.com/sundarkempe86-jpg/weather-app",
+    "liveUrl": "#",
+    "featured": false,
+    "metrics": {
+      "apiSpeed": "120ms",
+      "dataFreshness": "Real-Time"
+    },
+    "caseStudy": {
+      "problem": "Displaying multi-day weather trends cleanly across varying device screen sizes.",
+      "research": "Designed glassmorphic weather cards with dynamic color palettes matching current weather state.",
+      "architecture": "Vanilla JS client consuming OpenWeather REST API.",
+      "challenges": "Graceful handling of API rate limits and geolocation permission denials.",
+      "solutions": "Implemented fallback city search and client caching.",
+      "performance": "Instant UI state transitions upon location update.",
+      "lessonsLearned": "Graceful fallback UI improves user experience significantly."
+    }
+  }
+]

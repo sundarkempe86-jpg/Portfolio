@@ -1,0 +1,35 @@
+[
+  {
+    "category": "AI/ML & GenAI",
+    "skills": [
+      { "name": "Python Machine Learning", "level": 92, "icon": "Brain", "tags": ["Scikit-Learn", "FastAPI", "NLP", "TF-IDF", "Classification"] },
+      { "name": "Azure AI Services", "level": 90, "icon": "Cloud", "tags": ["Azure AI Foundry", "Vision", "Speech", "Document Intelligence", "Prompt Flow"] },
+      { "name": "LLM & Prompt Engineering", "level": 88, "icon": "Sparkles", "tags": ["RAG Architecture", "Fine-Tuning", "System Prompting", "Client NLP"] }
+    ]
+  },
+  {
+    "category": "Languages & Core CS",
+    "skills": [
+      { "name": "Java (Core & Enterprise)", "level": 94, "icon": "Coffee", "tags": ["Java 17+", "OOP Design", "Collections API", "Multithreading", "KodNest Training"] },
+      { "name": "Python", "level": 92, "icon": "Code", "tags": ["FastAPI", "Scripting", "Data Wrangling", "PyTest"] },
+      { "name": "SQL & Relational DBs", "level": 90, "icon": "Database", "tags": ["PostgreSQL", "MySQL", "SQLite", "Schema Normalization", "Indexing"] },
+      { "name": "Data Structures & Algorithms", "level": 88, "icon": "Cpu", "tags": ["Arrays & Trees", "Graph Algorithms", "Dynamic Programming", "Time Complexity"] }
+    ]
+  },
+  {
+    "category": "Web & Full-Stack",
+    "skills": [
+      { "name": "React & Next.js", "level": 92, "icon": "Layout", "tags": ["Next.js App Router", "React 19", "Hooks", "State Management", "SSR"] },
+      { "name": "TypeScript & JavaScript", "level": 90, "icon": "FileCode", "tags": ["Type Safety", "ESNext", "Async/Await", "DOM APIs"] },
+      { "name": "Tailwind CSS & Framer Motion", "level": 94, "icon": "Palette", "tags": ["Glassmorphism", "Responsive Layouts", "Dark Mode", "Micro-Animations"] },
+      { "name": "Node.js & Express", "level": 86, "icon": "Server", "tags": ["REST APIs", "Middleware", "JSON JWT", "Backend Routing"] }
+    ]
+  },
+  {
+    "category": "Cloud & Cybersecurity",
+    "skills": [
+      { "name": "Cybersecurity & Web Defense", "level": 88, "icon": "ShieldCheck", "tags": ["Endpoint Security", "Malicious URL Detection", "Cisco Badged", "OWASP Top 10"] },
+      { "name": "Git & DevOps", "level": 90, "icon": "GitBranch", "tags": ["GitHub Workflows", "Docker", "CI/CD Pipelines", "Vercel Deployments"] }
+    ]
+  }
+]

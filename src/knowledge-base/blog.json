@@ -1,0 +1,35 @@
+[
+  {
+    "id": "prompt-engineering-rag",
+    "title": "Mastering Client-Side Prompt Engineering & RAG Architecture",
+    "slug": "prompt-engineering-rag",
+    "date": "2026-07-15",
+    "readTime": "6 min read",
+    "category": "AI / GenAI",
+    "tags": ["Prompt Engineering", "RAG Architecture", "Client-Side AI", "NLP"],
+    "summary": "How to design high-precision retrieval-augmented generation flows without expensive external API calls by building vector term matrices directly in modern JavaScript runtime.",
+    "content": "### Introduction\nIn modern web engineering, deploying client-side intelligence reduces latency to sub-50ms and eliminates cloud compute expenses. In this post, we explore TF-IDF cosine vector matching for localized search engines.\n\n### The Math Behind Cosine Similarity\nGiven two term frequency vectors **A** and **B**:\n\n$$\\text{Cosine Similarity} = \\frac{A \\cdot B}{\\|A\\| \\|B\\|}$$\n\nBy tokenizing document strings and matching query n-grams, we achieve 95%+ precision on targeted candidate knowledge queries.\n\n```python\n# Example TF-IDF vector snippet in Python\nfrom sklearn.feature_extraction.text import TfidfVectorizer\nfrom sklearn.metrics.pairwise import cosine_similarity\n\ndocs = ['FastAPI Python backend', 'React Next.js frontend']\nvectorizer = TfidfVectorizer().fit_transform(docs)\nprint(cosine_similarity(vectorizer[0], vectorizer[1]))\n```\n\n### Conclusion\nClient-side AI provides immediate response times, zero server cost, and complete user data privacy."
+  },
+  {
+    "id": "fastapi-security-guide",
+    "title": "Building High-Throughput Malicious URL Detection with FastAPI & Python ML",
+    "slug": "fastapi-security-guide",
+    "date": "2026-06-10",
+    "readTime": "8 min read",
+    "category": "Cybersecurity & Python",
+    "tags": ["FastAPI", "Python ML", "CyberGuard", "Web Security"],
+    "summary": "Inside the architecture of CyberGuard: how asynchronous FastAPI endpoints and Random Forest URL classifiers process 100+ requests per second.",
+    "content": "### Phishing Anomaly Feature Vectors\nWhen evaluating a suspicious URL, static blacklists fail against freshly registered domains. CyberGuard extracts 18 structural features:\n1. URL Entropy & Length\n2. Subdomain Count\n3. Presence of IP Addresses in Hostname\n4. Suspicious TLD Frequency\n\n```python\n@app.post('/api/v1/scan')\nasync def scan_url(request: ScanRequest):\n    features = extract_url_features(request.url)\n    prediction = ml_model.predict([features])\n    return {'is_malicious': bool(prediction[0])}\n```"
+  },
+  {
+    "id": "java-dsa-mastery",
+    "title": "Enterprise Java & Data Structures: Lessons from KodNest Offline Training",
+    "slug": "java-dsa-mastery",
+    "date": "2026-05-02",
+    "readTime": "5 min read",
+    "category": "Java & DSA",
+    "tags": ["Java 17", "Data Structures", "KodNest", "OOP"],
+    "summary": "Key insights on memory management, collection frameworks, and algorithmic optimization gained during intensive offline Java training in Bengaluru.",
+    "content": "### Why Java Remains Unbeatable for Enterprise Backends\nJava's strong static typing, JVM JIT compilation, and robust concurrency primitives make it the backbone of global banking and cloud platforms.\n\nKey areas covered at KodNest:\n- Custom LinkedList and Binary Search Tree implementations\n- Multithreading synchronization & Executor Services\n- SQL relational join optimizations"
+  }
+]

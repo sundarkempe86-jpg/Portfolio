@@ -1,0 +1,38 @@
+[
+  {
+    "id": "vtu-be-cs",
+    "institution": "Government Engineering College, Bidar",
+    "affiliation": "Visvesvaraya Technological University (VTU), Belagavi",
+    "degree": "Bachelor of Engineering (B.E.) in Computer Science & Engineering",
+    "duration": "2022 – 2026",
+    "grade": "7.46 / 10.0 CGPA",
+    "location": "Bidar, Karnataka, India",
+    "highlights": [
+      "Core coursework: Data Structures, Analysis of Algorithms, Operating Systems, Database Management Systems, Computer Networks, Software Engineering",
+      "Lead developer for CyberGuard AI malicious URL detection capstone project",
+      "Active participant in technical symposiums and open-source hackathons"
+    ]
+  },
+  {
+    "id": "puc-science",
+    "institution": "Shree Chennabasaveshwara Gurukul PU College",
+    "degree": "Pre-University Certificate (PUC Science)",
+    "duration": "2020 – 2022",
+    "grade": "60%",
+    "location": "Karnataka, India",
+    "highlights": [
+      "Focused on Physics, Chemistry, Mathematics, and Computer Science foundation"
+    ]
+  },
+  {
+    "id": "sslc",
+    "institution": "Shree Chennabasaveshwara Gurukul School",
+    "degree": "Secondary School Leaving Certificate (SSLC)",
+    "duration": "2019 – 2020",
+    "grade": "84%",
+    "location": "Karnataka, India",
+    "highlights": [
+      "Distinction grade with strong emphasis on Mathematics and Science"
+    ]
+  }
+]

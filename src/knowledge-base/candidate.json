@@ -1,0 +1,38 @@
+{
+  "fullName": "Sundar Raj Kempe",
+  "title": "AI / ML Engineer & Java Full-Stack Software Developer",
+  "usn": "3DG22CS049",
+  "location": "Bidar / Bengaluru, Karnataka, India",
+  "email": "sundarkempe86@gmail.com",
+  "phone": "+91 8618860789",
+  "github": "https://github.com/sundarkempe86-jpg",
+  "linkedin": "https://www.linkedin.com/in/sundar-raj-kempe/",
+  "bio": "AI/ML Engineer & Java Full-Stack Developer (VTU USN: 3DG22CS049). Elite GOLD Certified in Web Dev & React with Python from VTU. Certified in Cyber Security (KGTTI Kalaburagi), Cisco Endpoint Security, and Azure AI Foundry SDK. Undergoing offline Java training at KodNest Bengaluru.",
+  "status": "Open to Hiring & Graduate Engineer Roles (2026 Batch)",
+  "vtuCgpa": "7.46 / 10.0",
+  "languages": [
+    {
+      "name": "English",
+      "fluency": "Fluent",
+      "level": "Professional"
+    },
+    {
+      "name": "Kannada",
+      "fluency": "Native",
+      "level": "Native"
+    },
+    {
+      "name": "Hindi",
+      "fluency": "Fluent",
+      "level": "Professional"
+    }
+  ],
+  "targetCompanies": [
+    "Google",
+    "Microsoft",
+    "OpenAI",
+    "Meta",
+    "Amazon",
+    "Apple"
+  ]
+}
