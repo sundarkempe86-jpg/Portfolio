@@ -33,7 +33,7 @@ export const AboutModule: React.FC = () => {
               <span>Personal Vision & Mission</span>
             </h3>
             <p className="text-slate-300 text-sm leading-relaxed">
-              I am **Sundar Raj Kempe**, a Computer Science & Engineering graduate from **Government Engineering College, Bidar** (affiliated with Visvesvaraya Technological University - VTU Belagavi). I bring a strong foundation in Artificial Intelligence, Machine Learning, and Enterprise Java Software Engineering.
+              I am Sundar Raj Kempe, a Computer Science & Engineering graduate from Government Engineering College, Bidar (affiliated with Visvesvaraya Technological University - VTU Belagavi). I bring a strong foundation in Artificial Intelligence, Machine Learning, and Enterprise Java Software Engineering.
             </p>
             <p className="text-slate-300 text-sm leading-relaxed">
               To bridge theoretical computer science with enterprise product engineering standards, I completed intensive offline Java Full-Stack training at **KodNest Technologies, BTM Layout, Bengaluru**. There, I built scalable backends, designed normalized relational schemas, and refined algorithmic problem-solving.
